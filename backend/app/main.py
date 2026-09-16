@@ -9,7 +9,6 @@ Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
-
 app.add_middleware(RateLimitAndAuditMiddleware)
 
 app.add_middleware(
