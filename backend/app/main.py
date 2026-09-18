@@ -4,6 +4,7 @@ from app.config import settings
 from app.database import engine, Base
 from app.middleware import RateLimitAndAuditMiddleware
 from app.routes import auth
+from datetime import datetime, timezone
 
 Base.metadata.create_all(bind=engine)
 
@@ -20,3 +21,12 @@ app.add_middleware(
 )
 
 app.include_router(auth.router)
+
+@app.get("/health", tags=["Monitoring"])
+@app.get("/api/v1/status", tags=["Monitoring"])
+def health_check():
+    return {
+        "status": "healthy",
+        "service": "electricity-management-backend",
+        "timestamp": datetime.now(timezone.utc).isoformat()
+    }
