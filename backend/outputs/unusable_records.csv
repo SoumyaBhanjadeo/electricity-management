@@ -1,0 +1,12 @@
+asset_id,name,asset_type,latitude,longitude,elevation_m,surveyed_on,surveyor,status,condition_score,attribute_json,rejection_reason
+PL-0116,Defective Pole Test Fault 1,pole,95.500000 N,85.820000 E,45.0,2026-09-05,Ramesh Sharma,active,7,"{""height_m"": 10.0}",Latitude 95.5 is outside the valid range of -90 to 90
+PL-0117,Defective Pole Test Fault 2,pole,20.290000 N,bad_lon,45.0,2026-09-05,Ramesh Sharma,active,7,"{""height_m"": 10.0}",Longitude must be a valid numeric value
+PL-0101,Duplicate Code Row Fault 3,pole,20.290000 N,85.820000 E,45.0,2026-09-05,Ramesh Sharma,active,7,"{""height_m"": 10.0}",Duplicate asset_id: PL-0101 already exists in database
+,Missing Code Row Fault 4,pole,20.290000 N,85.820000 E,45.0,2026-09-05,Ramesh Sharma,active,7,"{""height_m"": 10.0}",asset_id is missing or blank
+BADCODE123,Bad Code Format Fault 5,pole,20.290000 N,85.820000 E,45.0,2026-09-05,Ramesh Sharma,active,7,"{""height_m"": 10.0}","asset_id 'BADCODE123' does not match required format (two uppercase letters, hyphen, four digits, e.g. PL-0142)"
+PL-0118,Score Out of Range Fault 6,pole,20.290000 N,85.820000 E,45.0,2026-09-05,Ramesh Sharma,active,14,"{""height_m"": 10.0}",condition_score 14 is out of valid range (0 to 10)
+PL-0119,Score Blank Fault 7,pole,20.290000 N,85.820000 E,45.0,2026-09-05,Ramesh Sharma,active,,"{""height_m"": 10.0}",condition_score is blank
+PL-0120,Future Date Fault 8,pole,20.290000 N,85.820000 E,45.0,2030-01-01,Ramesh Sharma,active,7,"{""height_m"": 10.0}",surveyed_on '2030-01-01' cannot be a future date
+PL-0121,Corrupt JSON Snippet Fault 9,pole,20.290000 N,85.820000 E,45.0,2026-09-05,Ramesh Sharma,active,7,{bad_json: 123},attribute_json is not valid JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+PL-0122,Unrecognized Asset Type Fault 10,generator,20.290000 N,85.820000 E,45.0,2026-09-05,Ramesh Sharma,active,7,"{""capacity"": 50}","asset_type 'generator' is unrecognized (must be one of: manhole, pole, transformer, valve)"
+PL-0123,Decommissioned High Score Fault 11,pole,20.290000 N,85.820000 E,45.0,2026-09-05,Ramesh Sharma,decommissioned,8,"{""height_m"": 10.0}",field validation failed: decommissioned asset cannot have condition_score above 2 (got 8)
