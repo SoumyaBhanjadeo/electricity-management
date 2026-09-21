@@ -94,6 +94,10 @@ def run_ingestion(
             longitude=cleaned_data["longitude"],
             elevation_m=cleaned_data.get("elevation_m"),
             status=cleaned_data["status"],
+            surveyor=cleaned_data.get("surveyor"),
+            surveyed_on=cleaned_data.get("surveyed_on"),
+            condition_score=cleaned_data.get("condition_score"),
+            condition_band=cleaned_data.get("condition_band"),
             created_by=default_user_id,
             updated_by=default_user_id
         )

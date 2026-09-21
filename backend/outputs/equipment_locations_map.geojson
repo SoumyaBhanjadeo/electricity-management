@@ -6,6 +6,631 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          85.8271,
+          20.2945
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0401",
+        "name": "UG Cable Chamber CC-12",
+        "asset_type": "manhole",
+        "elevation_m": null,
+        "status": "active",
+        "condition_score": 6,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-01",
+        "surveyor": "Sasmita Mohanty",
+        "attribute_json": {
+          "depth_m": 2.5,
+          "cover_type": "cast_iron"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.824,
+          20.293
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0402",
+        "name": "Cable Splice Chamber 4",
+        "asset_type": "manhole",
+        "elevation_m": 43.2,
+        "status": "decommissioned",
+        "condition_score": 1,
+        "condition_band": "CRITICAL",
+        "surveyed_on": "2026-09-01",
+        "surveyor": "Laxmi Priya Das",
+        "attribute_json": {
+          "depth_m": 1.8,
+          "cover_type": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.822,
+          20.292
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0403",
+        "name": "Fiber Optic & UG Cable Pit",
+        "asset_type": "manhole",
+        "elevation_m": 42.0,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-02",
+        "surveyor": "Ranjan Kumar Pradhan",
+        "attribute_json": {
+          "depth_m": 2.0,
+          "cover_type": "cast_iron"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.8215,
+          20.2915
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0404",
+        "name": "Feeder Crossing Chamber",
+        "asset_type": "manhole",
+        "elevation_m": 41.5,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-02",
+        "surveyor": "Anita Priyadarshini",
+        "attribute_json": {
+          "depth_m": 3.0,
+          "cover_type": "steel_plate"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.8205,
+          20.2905
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0405",
+        "name": "Substation Entry Manhole",
+        "asset_type": "manhole",
+        "elevation_m": null,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-03",
+        "surveyor": "Rajesh Kumar Rout",
+        "attribute_json": {
+          "depth_m": 3.2,
+          "cover_type": "cast_iron"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.8195,
+          20.2895
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0406",
+        "name": "Underground Duct Manhole 6",
+        "asset_type": "manhole",
+        "elevation_m": 40.0,
+        "status": "active",
+        "condition_score": 6,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-03",
+        "surveyor": "Rupali Mohapatra",
+        "attribute_json": {
+          "depth_m": 2.2,
+          "cover_type": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.8185,
+          20.2885
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0407",
+        "name": "Junction Manhole JM-7",
+        "asset_type": "manhole",
+        "elevation_m": 39.5,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-04",
+        "surveyor": "Kalyani Mohanty",
+        "attribute_json": {
+          "depth_m": 2.4,
+          "cover_type": "cast_iron"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.8175,
+          20.2875
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0408",
+        "name": "Service Connection Pit SP-8",
+        "asset_type": "manhole",
+        "elevation_m": 39.0,
+        "status": "active",
+        "condition_score": 5,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-04",
+        "surveyor": "Priyanka Das",
+        "attribute_json": {
+          "depth_m": 1.9,
+          "cover_type": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.8165,
+          20.2865
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0409",
+        "name": "Primary Feeder Vault PV-9",
+        "asset_type": "manhole",
+        "elevation_m": 38.5,
+        "status": "active",
+        "condition_score": 6,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-05",
+        "surveyor": "Snigdha Pradhan",
+        "attribute_json": {
+          "depth_m": 3.5,
+          "cover_type": "steel_plate"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.8155,
+          20.2855
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0410",
+        "name": "Corner Turning Manhole CT-10",
+        "asset_type": "manhole",
+        "elevation_m": 38.0,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-05",
+        "surveyor": "Nandini Behera",
+        "attribute_json": {
+          "depth_m": 2.6,
+          "cover_type": "cast_iron"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.841,
+          20.271
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0801",
+        "name": "Master Canteen UG Chamber 1",
+        "asset_type": "manhole",
+        "elevation_m": 43.0,
+        "status": "active",
+        "condition_score": 6,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-01",
+        "surveyor": "Gouranga Charan Rout",
+        "attribute_json": {
+          "depth_m": 2.5,
+          "cover_type": "cast_iron"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.829,
+          20.281
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0802",
+        "name": "Bapuji Nagar Cable Splice Pit 2",
+        "asset_type": "manhole",
+        "elevation_m": 42.0,
+        "status": "active",
+        "condition_score": 6,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-02",
+        "surveyor": "Sushil Kumar Baral",
+        "attribute_json": {
+          "depth_m": 2.0,
+          "cover_type": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.842,
+          20.291
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0803",
+        "name": "Unit 9 Underground Duct Manhole 3",
+        "asset_type": "manhole",
+        "elevation_m": 44.0,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-03",
+        "surveyor": "Padmini Behera",
+        "attribute_json": {
+          "depth_m": 2.8,
+          "cover_type": "cast_iron"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.845,
+          20.288
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0804",
+        "name": "Satya Nagar Telecom Chamber 4",
+        "asset_type": "manhole",
+        "elevation_m": 43.5,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-04",
+        "surveyor": "Satyabrata Swain",
+        "attribute_json": {
+          "depth_m": 2.2,
+          "cover_type": "cast_iron"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.827,
+          20.265
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0805",
+        "name": "Forest Park Drainage Manhole 5",
+        "asset_type": "manhole",
+        "elevation_m": 41.5,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-05",
+        "surveyor": "Chinmay Kumar Panda",
+        "attribute_json": {
+          "depth_m": 2.4,
+          "cover_type": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.861,
+          20.282
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0806",
+        "name": "Jharpada Substation Chamber 6",
+        "asset_type": "manhole",
+        "elevation_m": 44.5,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-06",
+        "surveyor": "Bijay Kumar Kar",
+        "attribute_json": {
+          "depth_m": 3.0,
+          "cover_type": "steel_plate"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.823,
+          20.272
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0807",
+        "name": "Surya Nagar Underground Vault 7",
+        "asset_type": "manhole",
+        "elevation_m": 41.0,
+        "status": "active",
+        "condition_score": 6,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-07",
+        "surveyor": "Rashmi Rekha Das",
+        "attribute_json": {
+          "depth_m": 2.6,
+          "cover_type": "cast_iron"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.776,
+          20.255
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0808",
+        "name": "Aiginia Crossing Chamber 8",
+        "asset_type": "manhole",
+        "elevation_m": 39.5,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-08",
+        "surveyor": "Pradipta Kumar Mahapatra",
+        "attribute_json": {
+          "depth_m": 2.7,
+          "cover_type": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.784,
+          20.26
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0809",
+        "name": "Khandagiri Square Inspection Pit 9",
+        "asset_type": "manhole",
+        "elevation_m": 41.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-09",
+        "surveyor": "Biswa Ranjan Acharya",
+        "attribute_json": {
+          "depth_m": 2.3,
+          "cover_type": "cast_iron"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.829,
+          20.372
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0810",
+        "name": "Raghunathpur Cable Chamber 10",
+        "asset_type": "manhole",
+        "elevation_m": 46.5,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-10",
+        "surveyor": "Ananya Priyadarshini",
+        "attribute_json": {
+          "depth_m": 2.9,
+          "cover_type": "steel_plate"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.812,
+          20.269
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0811",
+        "name": "Siripur Telecom Manhole 11",
+        "asset_type": "manhole",
+        "elevation_m": 40.0,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-11",
+        "surveyor": "Sujata Mohapatra",
+        "attribute_json": {
+          "depth_m": 2.1,
+          "cover_type": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.824,
+          20.268
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0812",
+        "name": "Capital Hospital Feeder Chamber 12",
+        "asset_type": "manhole",
+        "elevation_m": 42.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-12",
+        "surveyor": "Saroj Kumar Lenka",
+        "attribute_json": {
+          "depth_m": 3.1,
+          "cover_type": "cast_iron"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.831,
+          20.277
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0813",
+        "name": "AG Square Fiber Pit 13",
+        "asset_type": "manhole",
+        "elevation_m": 43.0,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-13",
+        "surveyor": "Jitendra Kumar Biswal",
+        "attribute_json": {
+          "depth_m": 2.4,
+          "cover_type": "cast_iron"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.816,
+          20.286
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0814",
+        "name": "Unit 8 UG Electrical Chamber 14",
+        "asset_type": "manhole",
+        "elevation_m": 43.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-14",
+        "surveyor": "Manaswini Jena",
+        "attribute_json": {
+          "depth_m": 2.6,
+          "cover_type": "cast_iron"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.852,
+          20.28
+        ]
+      },
+      "properties": {
+        "asset_id": "MH-0815",
+        "name": "Cuttack Road Turning Manhole 15",
+        "asset_type": "manhole",
+        "elevation_m": 42.5,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-15",
+        "surveyor": "Rojalin Mohanty",
+        "attribute_json": {
+          "depth_m": 2.5,
+          "cover_type": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           85.824539,
           20.296059
         ]
@@ -19,10 +644,760 @@
         "condition_score": 8,
         "condition_band": "GOOD",
         "surveyed_on": "2026-09-01",
-        "surveyor": "R. Sharma",
+        "surveyor": "Ramesh Chandra Das",
         "attribute_json": {
           "height_m": 11.5,
           "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.825,
+          20.297
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0102",
+        "name": "Concrete Pole Line 4",
+        "asset_type": "pole",
+        "elevation_m": 44.0,
+        "status": "active",
+        "condition_score": 5,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-01",
+        "surveyor": "Pradip Kumar Sahu",
+        "attribute_json": {
+          "height_m": 9.0,
+          "material": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.8235,
+          20.2955
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0103",
+        "name": "Wooden Utility Pole Old Sector",
+        "asset_type": "pole",
+        "elevation_m": null,
+        "status": "decommissioned",
+        "condition_score": 2,
+        "condition_band": "CRITICAL",
+        "surveyed_on": "2026-09-01",
+        "surveyor": "Bikash Ranjan Panda",
+        "attribute_json": {
+          "height_m": 8.0,
+          "material": "wood"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.8265,
+          20.2965
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0104",
+        "name": "Street Light Joint Pole",
+        "asset_type": "pole",
+        "elevation_m": 45.0,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-02",
+        "surveyor": "Sujata Rani Behera",
+        "attribute_json": {
+          "height_m": 10.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.828,
+          20.298
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0105",
+        "name": "Terminal Distribution Pole",
+        "asset_type": "pole",
+        "elevation_m": null,
+        "status": "proposed",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-02",
+        "surveyor": "Mamata Sahu",
+        "attribute_json": {
+          "height_m": 12.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.827,
+          20.2975
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0106",
+        "name": "HT Line Intermediate Pole",
+        "asset_type": "pole",
+        "elevation_m": 46.0,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-02",
+        "surveyor": "Biswajit Mohanty",
+        "attribute_json": {
+          "height_m": 11.0,
+          "material": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.824,
+          20.295
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0107",
+        "name": "Alleyway Distribution Pole",
+        "asset_type": "pole",
+        "elevation_m": 44.5,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-03",
+        "surveyor": "Manas Ranjan Mishra",
+        "attribute_json": {
+          "height_m": 9.5,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.829,
+          20.2985
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0108",
+        "name": "Corner Support Pole",
+        "asset_type": "pole",
+        "elevation_m": 47.0,
+        "status": "active",
+        "condition_score": 6,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-03",
+        "surveyor": "Archana Pradhan",
+        "attribute_json": {
+          "height_m": 10.5,
+          "material": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.8295,
+          20.299
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0109",
+        "name": "Dead-End Guyed Pole",
+        "asset_type": "pole",
+        "elevation_m": 47.5,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-03",
+        "surveyor": "Chandan Kumar Jena",
+        "attribute_json": {
+          "height_m": 12.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.823,
+          20.294
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0110",
+        "name": "Overhead Junction Pole 10",
+        "asset_type": "pole",
+        "elevation_m": 43.5,
+        "status": "active",
+        "condition_score": 5,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-04",
+        "surveyor": "Santosh Kumar Panda",
+        "attribute_json": {
+          "height_m": 10.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.8225,
+          20.2935
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0111",
+        "name": "Tubular Steel Pole Line 6",
+        "asset_type": "pole",
+        "elevation_m": 43.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-04",
+        "surveyor": "Prakash Chandra Behera",
+        "attribute_json": {
+          "height_m": 11.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.821,
+          20.2925
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0112",
+        "name": "Service Drop Pole 12",
+        "asset_type": "pole",
+        "elevation_m": 42.0,
+        "status": "active",
+        "condition_score": 6,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-04",
+        "surveyor": "Debendra Kumar Sahu",
+        "attribute_json": {
+          "height_m": 9.0,
+          "material": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.82,
+          20.2915
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0113",
+        "name": "Transformer Support H-Frame",
+        "asset_type": "pole",
+        "elevation_m": 41.0,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-05",
+        "surveyor": "Bhabani Shankar Jena",
+        "attribute_json": {
+          "height_m": 12.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.819,
+          20.2905
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0114",
+        "name": "Road Crossing High Mast",
+        "asset_type": "pole",
+        "elevation_m": 40.5,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-05",
+        "surveyor": "Kunal Kumar Das",
+        "attribute_json": {
+          "height_m": 15.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.818,
+          20.2895
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0115",
+        "name": "Distribution Pole DP-15",
+        "asset_type": "pole",
+        "elevation_m": 40.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-05",
+        "surveyor": "Rajendra Kumar Mohapatra",
+        "attribute_json": {
+          "height_m": 10.0,
+          "material": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.817,
+          20.2885
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0124",
+        "name": "Valid Final Distribution Pole",
+        "asset_type": "pole",
+        "elevation_m": 39.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-05",
+        "surveyor": "Sangita Rani Das",
+        "attribute_json": {
+          "height_m": 10.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.818,
+          20.2985
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0501",
+        "name": "Jayadev Vihar Feeder Pole 1",
+        "asset_type": "pole",
+        "elevation_m": 44.5,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-01",
+        "surveyor": "Bijay Kumar Kar",
+        "attribute_json": {
+          "height_m": 11.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.819,
+          20.354
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0502",
+        "name": "Patia Station Road Support Pole 2",
+        "asset_type": "pole",
+        "elevation_m": 46.0,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-02",
+        "surveyor": "Rashmi Rekha Das",
+        "attribute_json": {
+          "height_m": 10.0,
+          "material": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.832,
+          20.243
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0503",
+        "name": "Old Town Heritage Sector Pole 3",
+        "asset_type": "pole",
+        "elevation_m": 38.5,
+        "status": "active",
+        "condition_score": 5,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-03",
+        "surveyor": "Pradipta Kumar Mahapatra",
+        "attribute_json": {
+          "height_m": 9.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.816,
+          20.358
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0504",
+        "name": "KIIT Square High Mast Pole 4",
+        "asset_type": "pole",
+        "elevation_m": 48.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-04",
+        "surveyor": "Biswa Ranjan Acharya",
+        "attribute_json": {
+          "height_m": 15.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.842,
+          20.262
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0505",
+        "name": "Kalpana Square Junction Pole 5",
+        "asset_type": "pole",
+        "elevation_m": 41.0,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-05",
+        "surveyor": "Ananya Priyadarshini",
+        "attribute_json": {
+          "height_m": 10.5,
+          "material": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.857,
+          20.273
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0506",
+        "name": "Laxmisagar Intermediate Pole 6",
+        "asset_type": "pole",
+        "elevation_m": 42.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-06",
+        "surveyor": "Sujata Mohapatra",
+        "attribute_json": {
+          "height_m": 11.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.801,
+          20.248
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0507",
+        "name": "Pokhariput Main Road Pole 7",
+        "asset_type": "pole",
+        "elevation_m": 40.0,
+        "status": "active",
+        "condition_score": 6,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-07",
+        "surveyor": "Saroj Kumar Lenka",
+        "attribute_json": {
+          "height_m": 9.5,
+          "material": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.827,
+          20.302
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0508",
+        "name": "Acharya Vihar Overpass Pole 8",
+        "asset_type": "pole",
+        "elevation_m": 47.0,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-08",
+        "surveyor": "Jitendra Kumar Biswal",
+        "attribute_json": {
+          "height_m": 12.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.817,
+          20.229
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0509",
+        "name": "Sundarpada Junction Support Pole 9",
+        "asset_type": "pole",
+        "elevation_m": 37.0,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-09",
+        "surveyor": "Manaswini Jena",
+        "attribute_json": {
+          "height_m": 10.0,
+          "material": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.815,
+          20.334
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0510",
+        "name": "Sailashree Vihar Avenue Pole 10",
+        "asset_type": "pole",
+        "elevation_m": 51.0,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-10",
+        "surveyor": "Rojalin Mohanty",
+        "attribute_json": {
+          "height_m": 11.5,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.825,
+          20.378
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0511",
+        "name": "Nandankanan Road Intermediate Pole 11",
+        "asset_type": "pole",
+        "elevation_m": 47.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-11",
+        "surveyor": "Krushna Chandra Sethi",
+        "attribute_json": {
+          "height_m": 10.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.818,
+          20.276
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0512",
+        "name": "Gopabandhu Nagar Utility Pole 12",
+        "asset_type": "pole",
+        "elevation_m": 41.5,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-12",
+        "surveyor": "Ganeswar Pradhan",
+        "attribute_json": {
+          "height_m": 9.0,
+          "material": "concrete"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.834,
+          20.279
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0513",
+        "name": "Unit 4 MLA Colony Pole 13",
+        "asset_type": "pole",
+        "elevation_m": 44.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-13",
+        "surveyor": "Debashree Patnaik",
+        "attribute_json": {
+          "height_m": 10.5,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.822,
+          20.283
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0514",
+        "name": "Governor House Boundary Pole 14",
+        "asset_type": "pole",
+        "elevation_m": 44.5,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-14",
+        "surveyor": "Namita Pradhan",
+        "attribute_json": {
+          "height_m": 11.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.843,
+          20.283
+        ]
+      },
+      "properties": {
+        "asset_id": "PL-0515",
+        "name": "Kharvela Nagar Street Pole 15",
+        "asset_type": "pole",
+        "elevation_m": 44.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-15",
+        "surveyor": "Hemanta Kumar Samal",
+        "attribute_json": {
+          "height_m": 10.0,
+          "material": "concrete"
         }
       }
     },
@@ -44,9 +1419,734 @@
         "condition_score": 9,
         "condition_band": "GOOD",
         "surveyed_on": "2026-09-01",
-        "surveyor": "Ramesh Sharma",
+        "surveyor": "Sanjay Kumar Mishra",
         "attribute_json": {
           "rating_kva": 500,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.834,
+          20.301
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0202",
+        "name": "Substation Transformer 2",
+        "asset_type": "transformer",
+        "elevation_m": 50.1,
+        "status": "active",
+        "condition_score": 4,
+        "condition_band": "POOR",
+        "surveyed_on": "2026-09-01",
+        "surveyor": "Subhash Chandra Nayak",
+        "attribute_json": {
+          "rating_kva": 1000,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.8325,
+          20.2995
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0203",
+        "name": "Distribution Transformer Bapuji Nagar",
+        "asset_type": "transformer",
+        "elevation_m": 47.5,
+        "status": "active",
+        "condition_score": 2,
+        "condition_band": "CRITICAL",
+        "surveyed_on": "2026-09-01",
+        "surveyor": "Debasish Mohapatra",
+        "attribute_json": {
+          "rating_kva": 250,
+          "cooling": "air"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.8355,
+          20.3025
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0204",
+        "name": "Auxiliary Transformer Unit 4",
+        "asset_type": "transformer",
+        "elevation_m": 51.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-02",
+        "surveyor": "Ashok Kumar Jena",
+        "attribute_json": {
+          "rating_kva": 750,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.833,
+          20.3005
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0205",
+        "name": "Pole Mounted Transformer Unit",
+        "asset_type": "transformer",
+        "elevation_m": 49.0,
+        "status": "active",
+        "condition_score": 5,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-02",
+        "surveyor": "Dillip Kumar Swain",
+        "attribute_json": {
+          "rating_kva": 100,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.8345,
+          20.3015
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0206",
+        "name": "Commercial Complex Transformer",
+        "asset_type": "transformer",
+        "elevation_m": 50.5,
+        "status": "active",
+        "condition_score": 6,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-02",
+        "surveyor": "Suchitra Behera",
+        "attribute_json": {
+          "rating_kva": 630,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.836,
+          20.303
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0207",
+        "name": "Hospital Feeder Transformer",
+        "asset_type": "transformer",
+        "elevation_m": 52.0,
+        "status": "active",
+        "condition_score": 10,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-03",
+        "surveyor": "Sanjukta Nayak",
+        "attribute_json": {
+          "rating_kva": 1500,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.837,
+          20.304
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0208",
+        "name": "Industrial Estate Transformer",
+        "asset_type": "transformer",
+        "elevation_m": 53.0,
+        "status": "active",
+        "condition_score": 3,
+        "condition_band": "POOR",
+        "surveyed_on": "2026-09-03",
+        "surveyor": "Pritam Kumar Sahoo",
+        "attribute_json": {
+          "rating_kva": 2000,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.838,
+          20.305
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0209",
+        "name": "Residential Colony Transformer",
+        "asset_type": "transformer",
+        "elevation_m": 54.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-03",
+        "surveyor": "Geetanjali Sahu",
+        "attribute_json": {
+          "rating_kva": 400,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.839,
+          20.306
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0210",
+        "name": "Distribution Transformer 10",
+        "asset_type": "transformer",
+        "elevation_m": 55.0,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-04",
+        "surveyor": "Monalisa Das",
+        "attribute_json": {
+          "rating_kva": 500,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.84,
+          20.307
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0211",
+        "name": "Shopping Mall Transformer",
+        "asset_type": "transformer",
+        "elevation_m": 56.0,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-04",
+        "surveyor": "Swati Rani Nayak",
+        "attribute_json": {
+          "rating_kva": 1000,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.841,
+          20.308
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0212",
+        "name": "Parkside Distribution Transformer",
+        "asset_type": "transformer",
+        "elevation_m": 57.0,
+        "status": "active",
+        "condition_score": 4,
+        "condition_band": "POOR",
+        "surveyed_on": "2026-09-04",
+        "surveyor": "Madhusmita Mishra",
+        "attribute_json": {
+          "rating_kva": 315,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.842,
+          20.309
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0213",
+        "name": "Railway Colony Transformer",
+        "asset_type": "transformer",
+        "elevation_m": 58.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-05",
+        "surveyor": "Puja Rani Behera",
+        "attribute_json": {
+          "rating_kva": 500,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.843,
+          20.31
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0214",
+        "name": "Office Complex Transformer",
+        "asset_type": "transformer",
+        "elevation_m": 59.0,
+        "status": "active",
+        "condition_score": 5,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-05",
+        "surveyor": "Barsha Rani Sahoo",
+        "attribute_json": {
+          "rating_kva": 800,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.844,
+          20.311
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0215",
+        "name": "Green Park Transformer Unit",
+        "asset_type": "transformer",
+        "elevation_m": 60.0,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-05",
+        "surveyor": "Sushree Priyanka Das",
+        "attribute_json": {
+          "rating_kva": 500,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.834,
+          20.292
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0601",
+        "name": "Saheed Nagar Distribution Transformer 1",
+        "asset_type": "transformer",
+        "elevation_m": 47.0,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-01",
+        "surveyor": "Saroj Kumar Lenka",
+        "attribute_json": {
+          "rating_kva": 500,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.812,
+          20.322
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0602",
+        "name": "Chandrasekharpur Step-Down Transformer 2",
+        "asset_type": "transformer",
+        "elevation_m": 49.5,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-02",
+        "surveyor": "Jitendra Kumar Biswal",
+        "attribute_json": {
+          "rating_kva": 750,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.808,
+          20.297
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0603",
+        "name": "Nayapalli Commercial Transformer 3",
+        "asset_type": "transformer",
+        "elevation_m": 46.5,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-03",
+        "surveyor": "Manaswini Jena",
+        "attribute_json": {
+          "rating_kva": 630,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.805,
+          20.359
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0604",
+        "name": "Infocity Tech Park Transformer 4",
+        "asset_type": "transformer",
+        "elevation_m": 52.0,
+        "status": "active",
+        "condition_score": 10,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-04",
+        "surveyor": "Rojalin Mohanty",
+        "attribute_json": {
+          "rating_kva": 1500,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.836,
+          20.276
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0605",
+        "name": "Ashok Nagar Feeder Transformer 5",
+        "asset_type": "transformer",
+        "elevation_m": 45.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-05",
+        "surveyor": "Krushna Chandra Sethi",
+        "attribute_json": {
+          "rating_kva": 400,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.852,
+          20.326
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0606",
+        "name": "Mancheswar Industrial Transformer 6",
+        "asset_type": "transformer",
+        "elevation_m": 53.0,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-06",
+        "surveyor": "Ganeswar Pradhan",
+        "attribute_json": {
+          "rating_kva": 2000,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.867,
+          20.312
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0607",
+        "name": "Jagannath Nagar Transformer 7",
+        "asset_type": "transformer",
+        "elevation_m": 48.5,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-07",
+        "surveyor": "Debashree Patnaik",
+        "attribute_json": {
+          "rating_kva": 315,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.782,
+          20.242
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0608",
+        "name": "Dumuduma Housing Board Transformer 8",
+        "asset_type": "transformer",
+        "elevation_m": 44.0,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-08",
+        "surveyor": "Namita Pradhan",
+        "attribute_json": {
+          "rating_kva": 500,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.751,
+          20.238
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0609",
+        "name": "Tamando Market Transformer 9",
+        "asset_type": "transformer",
+        "elevation_m": 43.5,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-09",
+        "surveyor": "Hemanta Kumar Samal",
+        "attribute_json": {
+          "rating_kva": 400,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.823,
+          20.339
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0610",
+        "name": "Niladri Vihar Residential Transformer 10",
+        "asset_type": "transformer",
+        "elevation_m": 50.0,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-10",
+        "surveyor": "Kartik Chandra Nayak",
+        "attribute_json": {
+          "rating_kva": 500,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.768,
+          20.246
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0611",
+        "name": "Patrapada Substation Transformer 11",
+        "asset_type": "transformer",
+        "elevation_m": 42.5,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-11",
+        "surveyor": "Madhusudan Behera",
+        "attribute_json": {
+          "rating_kva": 1000,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.814,
+          20.266
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0612",
+        "name": "OUAT Campus Transformer 12",
+        "asset_type": "transformer",
+        "elevation_m": 43.0,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-12",
+        "surveyor": "Bishnu Prasad Jena",
+        "attribute_json": {
+          "rating_kva": 630,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.831,
+          20.285
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0613",
+        "name": "Secretariat Auxiliary Transformer 13",
+        "asset_type": "transformer",
+        "elevation_m": 46.0,
+        "status": "active",
+        "condition_score": 10,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-13",
+        "surveyor": "Gouranga Charan Rout",
+        "attribute_json": {
+          "rating_kva": 1000,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.819,
+          20.284
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0614",
+        "name": "Raj Bhavan Distribution Transformer 14",
+        "asset_type": "transformer",
+        "elevation_m": 45.0,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-14",
+        "surveyor": "Sushil Kumar Baral",
+        "attribute_json": {
+          "rating_kva": 750,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.84,
+          20.289
+        ]
+      },
+      "properties": {
+        "asset_id": "TR-0615",
+        "name": "Janpath Shopping Complex Transformer 15",
+        "asset_type": "transformer",
+        "elevation_m": 45.5,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-15",
+        "surveyor": "Padmini Behera",
+        "attribute_json": {
+          "rating_kva": 800,
           "cooling": "oil"
         }
       }
@@ -69,85 +2169,10 @@
         "condition_score": 7,
         "condition_band": "FAIR",
         "surveyed_on": "2026-09-01",
-        "surveyor": "A. Patel",
+        "surveyor": "Amit Kumar Behera",
         "attribute_json": {
           "bore_mm": 150,
           "type": "gate"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.8271,
-          20.2945
-        ]
-      },
-      "properties": {
-        "asset_id": "MH-0401",
-        "name": "UG Cable Chamber CC-12",
-        "asset_type": "manhole",
-        "elevation_m": null,
-        "status": "active",
-        "condition_score": 6,
-        "condition_band": "FAIR",
-        "surveyed_on": "2026-09-01",
-        "surveyor": "Amit Patel",
-        "attribute_json": {
-          "depth_m": 2.5,
-          "cover_type": "cast_iron"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.825,
-          20.297
-        ]
-      },
-      "properties": {
-        "asset_id": "PL-0102",
-        "name": "Concrete Pole Line 4",
-        "asset_type": "pole",
-        "elevation_m": 44.0,
-        "status": "active",
-        "condition_score": 5,
-        "condition_band": "FAIR",
-        "surveyed_on": "2026-09-01",
-        "surveyor": "S. Mishra",
-        "attribute_json": {
-          "height_m": 9.0,
-          "material": "concrete"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.834,
-          20.301
-        ]
-      },
-      "properties": {
-        "asset_id": "TR-0202",
-        "name": "Substation Transformer 2",
-        "asset_type": "transformer",
-        "elevation_m": 50.1,
-        "status": "active",
-        "condition_score": 4,
-        "condition_band": "POOR",
-        "surveyed_on": "2026-09-01",
-        "surveyor": "Sanjay Mishra",
-        "attribute_json": {
-          "rating_kva": 1000,
-          "cooling": "oil"
         }
       }
     },
@@ -169,135 +2194,10 @@
         "condition_score": 3,
         "condition_band": "POOR",
         "surveyed_on": "2026-09-01",
-        "surveyor": "R Sharma",
+        "surveyor": "Manoj Kumar Rout",
         "attribute_json": {
           "bore_mm": 200,
           "type": "butterfly"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.824,
-          20.293
-        ]
-      },
-      "properties": {
-        "asset_id": "MH-0402",
-        "name": "Cable Splice Chamber 4",
-        "asset_type": "manhole",
-        "elevation_m": 43.2,
-        "status": "decommissioned",
-        "condition_score": 1,
-        "condition_band": "CRITICAL",
-        "surveyed_on": "2026-09-01",
-        "surveyor": "Amit P",
-        "attribute_json": {
-          "depth_m": 1.8,
-          "cover_type": "concrete"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.8235,
-          20.2955
-        ]
-      },
-      "properties": {
-        "asset_id": "PL-0103",
-        "name": "Wooden Utility Pole Old Sector",
-        "asset_type": "pole",
-        "elevation_m": null,
-        "status": "decommissioned",
-        "condition_score": 2,
-        "condition_band": "CRITICAL",
-        "surveyed_on": "2026-09-01",
-        "surveyor": "Ramesh S",
-        "attribute_json": {
-          "height_m": 8.0,
-          "material": "wood"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.8325,
-          20.2995
-        ]
-      },
-      "properties": {
-        "asset_id": "TR-0203",
-        "name": "Distribution Transformer Bapuji Nagar",
-        "asset_type": "transformer",
-        "elevation_m": 47.5,
-        "status": "active",
-        "condition_score": 2,
-        "condition_band": "CRITICAL",
-        "surveyed_on": "2026-09-01",
-        "surveyor": "A Patel",
-        "attribute_json": {
-          "rating_kva": 250,
-          "cooling": "air"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.8265,
-          20.2965
-        ]
-      },
-      "properties": {
-        "asset_id": "PL-0104",
-        "name": "Street Light Joint Pole",
-        "asset_type": "pole",
-        "elevation_m": 45.0,
-        "status": "active",
-        "condition_score": 9,
-        "condition_band": "GOOD",
-        "surveyed_on": "2026-09-02",
-        "surveyor": "S Mishra",
-        "attribute_json": {
-          "height_m": 10.0,
-          "material": "steel"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.8355,
-          20.3025
-        ]
-      },
-      "properties": {
-        "asset_id": "TR-0204",
-        "name": "Auxiliary Transformer Unit 4",
-        "asset_type": "transformer",
-        "elevation_m": 51.0,
-        "status": "active",
-        "condition_score": 8,
-        "condition_band": "GOOD",
-        "surveyed_on": "2026-09-02",
-        "surveyor": "Sanjay M",
-        "attribute_json": {
-          "rating_kva": 750,
-          "cooling": "oil"
         }
       }
     },
@@ -319,85 +2219,10 @@
         "condition_score": 6,
         "condition_band": "FAIR",
         "surveyed_on": "2026-09-02",
-        "surveyor": "R. Sharma",
+        "surveyor": "Prasant Kumar Barik",
         "attribute_json": {
           "bore_mm": 100,
           "type": "ball"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.822,
-          20.292
-        ]
-      },
-      "properties": {
-        "asset_id": "MH-0403",
-        "name": "Fiber Optic & UG Cable Pit",
-        "asset_type": "manhole",
-        "elevation_m": 42.0,
-        "status": "active",
-        "condition_score": 7,
-        "condition_band": "FAIR",
-        "surveyed_on": "2026-09-02",
-        "surveyor": "Amit Patel",
-        "attribute_json": {
-          "depth_m": 2.0,
-          "cover_type": "cast_iron"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.828,
-          20.298
-        ]
-      },
-      "properties": {
-        "asset_id": "PL-0105",
-        "name": "Terminal Distribution Pole",
-        "asset_type": "pole",
-        "elevation_m": null,
-        "status": "proposed",
-        "condition_score": 8,
-        "condition_band": "GOOD",
-        "surveyed_on": "2026-09-02",
-        "surveyor": "Ramesh Sharma",
-        "attribute_json": {
-          "height_m": 12.0,
-          "material": "steel"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.833,
-          20.3005
-        ]
-      },
-      "properties": {
-        "asset_id": "TR-0205",
-        "name": "Pole Mounted Transformer Unit",
-        "asset_type": "transformer",
-        "elevation_m": 49.0,
-        "status": "active",
-        "condition_score": 5,
-        "condition_band": "FAIR",
-        "surveyed_on": "2026-09-02",
-        "surveyor": "A. Patel",
-        "attribute_json": {
-          "rating_kva": 100,
-          "cooling": "oil"
         }
       }
     },
@@ -419,135 +2244,10 @@
         "condition_score": 4,
         "condition_band": "POOR",
         "surveyed_on": "2026-09-02",
-        "surveyor": "S. Mishra",
+        "surveyor": "Sambit Kumar Das",
         "attribute_json": {
           "bore_mm": 150,
           "type": "gate"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.8215,
-          20.2915
-        ]
-      },
-      "properties": {
-        "asset_id": "MH-0404",
-        "name": "Feeder Crossing Chamber",
-        "asset_type": "manhole",
-        "elevation_m": 41.5,
-        "status": "active",
-        "condition_score": 8,
-        "condition_band": "GOOD",
-        "surveyed_on": "2026-09-02",
-        "surveyor": "Sanjay Mishra",
-        "attribute_json": {
-          "depth_m": 3.0,
-          "cover_type": "steel_plate"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.827,
-          20.2975
-        ]
-      },
-      "properties": {
-        "asset_id": "PL-0106",
-        "name": "HT Line Intermediate Pole",
-        "asset_type": "pole",
-        "elevation_m": 46.0,
-        "status": "active",
-        "condition_score": 7,
-        "condition_band": "FAIR",
-        "surveyed_on": "2026-09-02",
-        "surveyor": "R. Sharma",
-        "attribute_json": {
-          "height_m": 11.0,
-          "material": "concrete"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.8345,
-          20.3015
-        ]
-      },
-      "properties": {
-        "asset_id": "TR-0206",
-        "name": "Commercial Complex Transformer",
-        "asset_type": "transformer",
-        "elevation_m": 50.5,
-        "status": "active",
-        "condition_score": 6,
-        "condition_band": "FAIR",
-        "surveyed_on": "2026-09-02",
-        "surveyor": "Amit Patel",
-        "attribute_json": {
-          "rating_kva": 630,
-          "cooling": "oil"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.824,
-          20.295
-        ]
-      },
-      "properties": {
-        "asset_id": "PL-0107",
-        "name": "Alleyway Distribution Pole",
-        "asset_type": "pole",
-        "elevation_m": 44.5,
-        "status": "active",
-        "condition_score": 8,
-        "condition_band": "GOOD",
-        "surveyed_on": "2026-09-03",
-        "surveyor": "Ramesh Sharma",
-        "attribute_json": {
-          "height_m": 9.5,
-          "material": "steel"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.836,
-          20.303
-        ]
-      },
-      "properties": {
-        "asset_id": "TR-0207",
-        "name": "Hospital Feeder Transformer",
-        "asset_type": "transformer",
-        "elevation_m": 52.0,
-        "status": "active",
-        "condition_score": 10,
-        "condition_band": "GOOD",
-        "surveyed_on": "2026-09-03",
-        "surveyor": "A. Patel",
-        "attribute_json": {
-          "rating_kva": 1500,
-          "cooling": "oil"
         }
       }
     },
@@ -569,85 +2269,10 @@
         "condition_score": 7,
         "condition_band": "FAIR",
         "surveyed_on": "2026-09-03",
-        "surveyor": "S. Mishra",
+        "surveyor": "Soumya Ranjan Das",
         "attribute_json": {
           "bore_mm": 125,
           "type": "gate"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.8205,
-          20.2905
-        ]
-      },
-      "properties": {
-        "asset_id": "MH-0405",
-        "name": "Substation Entry Manhole",
-        "asset_type": "manhole",
-        "elevation_m": null,
-        "status": "active",
-        "condition_score": 9,
-        "condition_band": "GOOD",
-        "surveyed_on": "2026-09-03",
-        "surveyor": "Sanjay Mishra",
-        "attribute_json": {
-          "depth_m": 3.2,
-          "cover_type": "cast_iron"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.829,
-          20.2985
-        ]
-      },
-      "properties": {
-        "asset_id": "PL-0108",
-        "name": "Corner Support Pole",
-        "asset_type": "pole",
-        "elevation_m": 47.0,
-        "status": "active",
-        "condition_score": 6,
-        "condition_band": "FAIR",
-        "surveyed_on": "2026-09-03",
-        "surveyor": "R. Sharma",
-        "attribute_json": {
-          "height_m": 10.5,
-          "material": "concrete"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.837,
-          20.304
-        ]
-      },
-      "properties": {
-        "asset_id": "TR-0208",
-        "name": "Industrial Estate Transformer",
-        "asset_type": "transformer",
-        "elevation_m": 53.0,
-        "status": "active",
-        "condition_score": 3,
-        "condition_band": "POOR",
-        "surveyed_on": "2026-09-03",
-        "surveyor": "Amit Patel",
-        "attribute_json": {
-          "rating_kva": 2000,
-          "cooling": "oil"
         }
       }
     },
@@ -669,135 +2294,10 @@
         "condition_score": 5,
         "condition_band": "FAIR",
         "surveyed_on": "2026-09-03",
-        "surveyor": "Ramesh Sharma",
+        "surveyor": "Niranjan Behera",
         "attribute_json": {
           "bore_mm": 80,
           "type": "globe"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.8195,
-          20.2895
-        ]
-      },
-      "properties": {
-        "asset_id": "MH-0406",
-        "name": "Underground Duct Manhole 6",
-        "asset_type": "manhole",
-        "elevation_m": 40.0,
-        "status": "active",
-        "condition_score": 6,
-        "condition_band": "FAIR",
-        "surveyed_on": "2026-09-03",
-        "surveyor": "A. Patel",
-        "attribute_json": {
-          "depth_m": 2.2,
-          "cover_type": "concrete"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.8295,
-          20.299
-        ]
-      },
-      "properties": {
-        "asset_id": "PL-0109",
-        "name": "Dead-End Guyed Pole",
-        "asset_type": "pole",
-        "elevation_m": 47.5,
-        "status": "active",
-        "condition_score": 7,
-        "condition_band": "FAIR",
-        "surveyed_on": "2026-09-03",
-        "surveyor": "S. Mishra",
-        "attribute_json": {
-          "height_m": 12.0,
-          "material": "steel"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.838,
-          20.305
-        ]
-      },
-      "properties": {
-        "asset_id": "TR-0209",
-        "name": "Residential Colony Transformer",
-        "asset_type": "transformer",
-        "elevation_m": 54.0,
-        "status": "active",
-        "condition_score": 8,
-        "condition_band": "GOOD",
-        "surveyed_on": "2026-09-03",
-        "surveyor": "Sanjay Mishra",
-        "attribute_json": {
-          "rating_kva": 400,
-          "cooling": "oil"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.823,
-          20.294
-        ]
-      },
-      "properties": {
-        "asset_id": "PL-0110",
-        "name": "Overhead Junction Pole 10",
-        "asset_type": "pole",
-        "elevation_m": 43.5,
-        "status": "active",
-        "condition_score": 5,
-        "condition_band": "FAIR",
-        "surveyed_on": "2026-09-04",
-        "surveyor": "R. Sharma",
-        "attribute_json": {
-          "height_m": 10.0,
-          "material": "steel"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.839,
-          20.306
-        ]
-      },
-      "properties": {
-        "asset_id": "TR-0210",
-        "name": "Distribution Transformer 10",
-        "asset_type": "transformer",
-        "elevation_m": 55.0,
-        "status": "active",
-        "condition_score": 9,
-        "condition_band": "GOOD",
-        "surveyed_on": "2026-09-04",
-        "surveyor": "Amit Patel",
-        "attribute_json": {
-          "rating_kva": 500,
-          "cooling": "oil"
         }
       }
     },
@@ -819,85 +2319,10 @@
         "condition_score": 6,
         "condition_band": "FAIR",
         "surveyed_on": "2026-09-04",
-        "surveyor": "Ramesh Sharma",
+        "surveyor": "Abinash Pradhan",
         "attribute_json": {
           "bore_mm": 150,
           "type": "gate"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.8185,
-          20.2885
-        ]
-      },
-      "properties": {
-        "asset_id": "MH-0407",
-        "name": "Junction Manhole JM-7",
-        "asset_type": "manhole",
-        "elevation_m": 39.5,
-        "status": "active",
-        "condition_score": 7,
-        "condition_band": "FAIR",
-        "surveyed_on": "2026-09-04",
-        "surveyor": "A. Patel",
-        "attribute_json": {
-          "depth_m": 2.4,
-          "cover_type": "cast_iron"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.8225,
-          20.2935
-        ]
-      },
-      "properties": {
-        "asset_id": "PL-0111",
-        "name": "Tubular Steel Pole Line 6",
-        "asset_type": "pole",
-        "elevation_m": 43.0,
-        "status": "active",
-        "condition_score": 8,
-        "condition_band": "GOOD",
-        "surveyed_on": "2026-09-04",
-        "surveyor": "S. Mishra",
-        "attribute_json": {
-          "height_m": 11.0,
-          "material": "steel"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.84,
-          20.307
-        ]
-      },
-      "properties": {
-        "asset_id": "TR-0211",
-        "name": "Shopping Mall Transformer",
-        "asset_type": "transformer",
-        "elevation_m": 56.0,
-        "status": "active",
-        "condition_score": 7,
-        "condition_band": "FAIR",
-        "surveyed_on": "2026-09-04",
-        "surveyor": "Sanjay Mishra",
-        "attribute_json": {
-          "rating_kva": 1000,
-          "cooling": "oil"
         }
       }
     },
@@ -919,135 +2344,10 @@
         "condition_score": 8,
         "condition_band": "GOOD",
         "surveyed_on": "2026-09-04",
-        "surveyor": "R. Sharma",
+        "surveyor": "Satyajit Kumar Rout",
         "attribute_json": {
           "bore_mm": 100,
           "type": "ball"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.8175,
-          20.2875
-        ]
-      },
-      "properties": {
-        "asset_id": "MH-0408",
-        "name": "Service Connection Pit SP-8",
-        "asset_type": "manhole",
-        "elevation_m": 39.0,
-        "status": "active",
-        "condition_score": 5,
-        "condition_band": "FAIR",
-        "surveyed_on": "2026-09-04",
-        "surveyor": "Amit Patel",
-        "attribute_json": {
-          "depth_m": 1.9,
-          "cover_type": "concrete"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.821,
-          20.2925
-        ]
-      },
-      "properties": {
-        "asset_id": "PL-0112",
-        "name": "Service Drop Pole 12",
-        "asset_type": "pole",
-        "elevation_m": 42.0,
-        "status": "active",
-        "condition_score": 6,
-        "condition_band": "FAIR",
-        "surveyed_on": "2026-09-04",
-        "surveyor": "Ramesh Sharma",
-        "attribute_json": {
-          "height_m": 9.0,
-          "material": "concrete"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.841,
-          20.308
-        ]
-      },
-      "properties": {
-        "asset_id": "TR-0212",
-        "name": "Parkside Distribution Transformer",
-        "asset_type": "transformer",
-        "elevation_m": 57.0,
-        "status": "active",
-        "condition_score": 4,
-        "condition_band": "POOR",
-        "surveyed_on": "2026-09-04",
-        "surveyor": "A. Patel",
-        "attribute_json": {
-          "rating_kva": 315,
-          "cooling": "oil"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.82,
-          20.2915
-        ]
-      },
-      "properties": {
-        "asset_id": "PL-0113",
-        "name": "Transformer Support H-Frame",
-        "asset_type": "pole",
-        "elevation_m": 41.0,
-        "status": "active",
-        "condition_score": 9,
-        "condition_band": "GOOD",
-        "surveyed_on": "2026-09-05",
-        "surveyor": "S. Mishra",
-        "attribute_json": {
-          "height_m": 12.0,
-          "material": "steel"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.842,
-          20.309
-        ]
-      },
-      "properties": {
-        "asset_id": "TR-0213",
-        "name": "Railway Colony Transformer",
-        "asset_type": "transformer",
-        "elevation_m": 58.0,
-        "status": "active",
-        "condition_score": 8,
-        "condition_band": "GOOD",
-        "surveyed_on": "2026-09-05",
-        "surveyor": "Sanjay Mishra",
-        "attribute_json": {
-          "rating_kva": 500,
-          "cooling": "oil"
         }
       }
     },
@@ -1069,85 +2369,10 @@
         "condition_score": 7,
         "condition_band": "FAIR",
         "surveyed_on": "2026-09-05",
-        "surveyor": "R. Sharma",
+        "surveyor": "Tapan Kumar Mohanty",
         "attribute_json": {
           "bore_mm": 50,
           "type": "ball"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.8165,
-          20.2865
-        ]
-      },
-      "properties": {
-        "asset_id": "MH-0409",
-        "name": "Primary Feeder Vault PV-9",
-        "asset_type": "manhole",
-        "elevation_m": 38.5,
-        "status": "active",
-        "condition_score": 6,
-        "condition_band": "FAIR",
-        "surveyed_on": "2026-09-05",
-        "surveyor": "Amit Patel",
-        "attribute_json": {
-          "depth_m": 3.5,
-          "cover_type": "steel_plate"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.819,
-          20.2905
-        ]
-      },
-      "properties": {
-        "asset_id": "PL-0114",
-        "name": "Road Crossing High Mast",
-        "asset_type": "pole",
-        "elevation_m": 40.5,
-        "status": "active",
-        "condition_score": 8,
-        "condition_band": "GOOD",
-        "surveyed_on": "2026-09-05",
-        "surveyor": "Ramesh Sharma",
-        "attribute_json": {
-          "height_m": 15.0,
-          "material": "steel"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.843,
-          20.31
-        ]
-      },
-      "properties": {
-        "asset_id": "TR-0214",
-        "name": "Office Complex Transformer",
-        "asset_type": "transformer",
-        "elevation_m": 59.0,
-        "status": "active",
-        "condition_score": 5,
-        "condition_band": "FAIR",
-        "surveyed_on": "2026-09-05",
-        "surveyor": "A. Patel",
-        "attribute_json": {
-          "rating_kva": 800,
-          "cooling": "oil"
         }
       }
     },
@@ -1169,7 +2394,7 @@
         "condition_score": 6,
         "condition_band": "FAIR",
         "surveyed_on": "2026-09-05",
-        "surveyor": "S. Mishra",
+        "surveyor": "Lalit Kumar Nayak",
         "attribute_json": {
           "bore_mm": 150,
           "type": "swing"
@@ -1181,23 +2406,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          85.8155,
-          20.2855
+          85.845,
+          20.286
         ]
       },
       "properties": {
-        "asset_id": "MH-0410",
-        "name": "Corner Turning Manhole CT-10",
-        "asset_type": "manhole",
-        "elevation_m": 38.0,
+        "asset_id": "VL-0701",
+        "name": "Rasulgarh Main Water Valve 1",
+        "asset_type": "valve",
+        "elevation_m": 41.2,
         "status": "active",
         "condition_score": 7,
         "condition_band": "FAIR",
-        "surveyed_on": "2026-09-05",
-        "surveyor": "Sanjay Mishra",
+        "surveyed_on": "2026-09-01",
+        "surveyor": "Debashree Patnaik",
         "attribute_json": {
-          "depth_m": 2.6,
-          "cover_type": "cast_iron"
+          "bore_mm": 150,
+          "type": "gate"
         }
       }
     },
@@ -1206,23 +2431,73 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          85.818,
-          20.2895
+          85.789,
+          20.258
         ]
       },
       "properties": {
-        "asset_id": "PL-0115",
-        "name": "Distribution Pole DP-15",
-        "asset_type": "pole",
+        "asset_id": "VL-0702",
+        "name": "Khandagiri Emergency Isolation Valve 2",
+        "asset_type": "valve",
+        "elevation_m": 39.0,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-02",
+        "surveyor": "Namita Pradhan",
+        "attribute_json": {
+          "bore_mm": 200,
+          "type": "butterfly"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.795,
+          20.278
+        ]
+      },
+      "properties": {
+        "asset_id": "VL-0703",
+        "name": "Baramunda Bus Stand Supply Valve 3",
+        "asset_type": "valve",
         "elevation_m": 40.0,
+        "status": "active",
+        "condition_score": 6,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-03",
+        "surveyor": "Hemanta Kumar Samal",
+        "attribute_json": {
+          "bore_mm": 100,
+          "type": "ball"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.839,
+          20.301
+        ]
+      },
+      "properties": {
+        "asset_id": "VL-0704",
+        "name": "Vani Vihar Pressure Relief Valve 4",
+        "asset_type": "valve",
+        "elevation_m": 42.5,
         "status": "active",
         "condition_score": 8,
         "condition_band": "GOOD",
-        "surveyed_on": "2026-09-05",
-        "surveyor": "R. Sharma",
+        "surveyed_on": "2026-09-04",
+        "surveyor": "Kartik Chandra Nayak",
         "attribute_json": {
-          "height_m": 10.0,
-          "material": "concrete"
+          "bore_mm": 125,
+          "type": "gate"
         }
       }
     },
@@ -1231,23 +2506,223 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          85.844,
-          20.311
+          85.816,
+          20.254
         ]
       },
       "properties": {
-        "asset_id": "TR-0215",
-        "name": "Green Park Transformer Unit",
-        "asset_type": "transformer",
-        "elevation_m": 60.0,
+        "asset_id": "VL-0705",
+        "name": "Airport Road Flow Regulation Valve 5",
+        "asset_type": "valve",
+        "elevation_m": 40.5,
+        "status": "active",
+        "condition_score": 6,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-05",
+        "surveyor": "Madhusudan Behera",
+        "attribute_json": {
+          "bore_mm": 80,
+          "type": "globe"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.864,
+          20.299
+        ]
+      },
+      "properties": {
+        "asset_id": "VL-0706",
+        "name": "Palasuni Sectional Valve 6",
+        "asset_type": "valve",
+        "elevation_m": 43.0,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-06",
+        "surveyor": "Bishnu Prasad Jena",
+        "attribute_json": {
+          "bore_mm": 150,
+          "type": "gate"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.843,
+          20.269
+        ]
+      },
+      "properties": {
+        "asset_id": "VL-0707",
+        "name": "Bhubaneswar Station Water Valve 7",
+        "asset_type": "valve",
+        "elevation_m": 42.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-07",
+        "surveyor": "Gouranga Charan Rout",
+        "attribute_json": {
+          "bore_mm": 100,
+          "type": "ball"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.765,
+          20.231
+        ]
+      },
+      "properties": {
+        "asset_id": "VL-0708",
+        "name": "Kalinga Nagar Distribution Valve 8",
+        "asset_type": "valve",
+        "elevation_m": 38.0,
+        "status": "active",
+        "condition_score": 6,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-08",
+        "surveyor": "Sushil Kumar Baral",
+        "attribute_json": {
+          "bore_mm": 125,
+          "type": "gate"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.769,
+          20.261
+        ]
+      },
+      "properties": {
+        "asset_id": "VL-0709",
+        "name": "Ghatikia Water Supply Valve 9",
+        "asset_type": "valve",
+        "elevation_m": 42.0,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-09",
+        "surveyor": "Padmini Behera",
+        "attribute_json": {
+          "bore_mm": 100,
+          "type": "butterfly"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.834,
+          20.364
+        ]
+      },
+      "properties": {
+        "asset_id": "VL-0710",
+        "name": "Kalarahanga Main Feed Valve 10",
+        "asset_type": "valve",
+        "elevation_m": 45.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-10",
+        "surveyor": "Satyabrata Swain",
+        "attribute_json": {
+          "bore_mm": 150,
+          "type": "gate"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.807,
+          20.279
+        ]
+      },
+      "properties": {
+        "asset_id": "VL-0711",
+        "name": "Delta Square Water Valve 11",
+        "asset_type": "valve",
+        "elevation_m": 41.0,
+        "status": "active",
+        "condition_score": 6,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-11",
+        "surveyor": "Chinmay Kumar Panda",
+        "attribute_json": {
+          "bore_mm": 80,
+          "type": "globe"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.828,
+          20.271
+        ]
+      },
+      "properties": {
+        "asset_id": "VL-0712",
+        "name": "Bhubaneswar Club Main Valve 12",
+        "asset_type": "valve",
+        "elevation_m": 42.5,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-12",
+        "surveyor": "Bijay Kumar Kar",
+        "attribute_json": {
+          "bore_mm": 100,
+          "type": "gate"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.836,
+          20.283
+        ]
+      },
+      "properties": {
+        "asset_id": "VL-0713",
+        "name": "Rabindra Mandap Fire Valve 13",
+        "asset_type": "valve",
+        "elevation_m": 43.5,
         "status": "active",
         "condition_score": 9,
         "condition_band": "GOOD",
-        "surveyed_on": "2026-09-05",
-        "surveyor": "Amit Patel",
+        "surveyed_on": "2026-09-13",
+        "surveyor": "Rashmi Rekha Das",
         "attribute_json": {
-          "rating_kva": 500,
-          "cooling": "oil"
+          "bore_mm": 125,
+          "type": "butterfly"
         }
       }
     },
@@ -1256,23 +2731,48 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          85.817,
-          20.2885
+          85.821,
+          20.292
         ]
       },
       "properties": {
-        "asset_id": "PL-0124",
-        "name": "Valid Final Distribution Pole",
-        "asset_type": "pole",
-        "elevation_m": 39.0,
+        "asset_id": "VL-0714",
+        "name": "Power House Square Valve 14",
+        "asset_type": "valve",
+        "elevation_m": 44.0,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-14",
+        "surveyor": "Pradipta Kumar Mahapatra",
+        "attribute_json": {
+          "bore_mm": 150,
+          "type": "gate"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.846,
+          20.293
+        ]
+      },
+      "properties": {
+        "asset_id": "VL-0715",
+        "name": "Satya Nagar Garden Water Valve 15",
+        "asset_type": "valve",
+        "elevation_m": 43.0,
         "status": "active",
         "condition_score": 8,
         "condition_band": "GOOD",
-        "surveyed_on": "2026-09-05",
-        "surveyor": "Ramesh Sharma",
+        "surveyed_on": "2026-09-15",
+        "surveyor": "Biswa Ranjan Acharya",
         "attribute_json": {
-          "height_m": 10.0,
-          "material": "steel"
+          "bore_mm": 100,
+          "type": "ball"
         }
       }
     }

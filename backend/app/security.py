@@ -68,7 +68,7 @@ def require_role(allowed_roles: List[str]):
         if current_user.role not in allowed_roles:
             raise HTTPException(
                 status_code=status.HTTP_403_FORBIDDEN,
-                detail=f"Access forbidden: requires one of roles {allowed_roles}"
+                detail=f"Access forbidden: requires role {allowed_roles}"
             )
         return current_user
     return role_checker

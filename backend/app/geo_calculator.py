@@ -46,7 +46,7 @@ def build_geojson_feature_collection(equipment_list: List[Any]) -> Dict[str, Any
                 "condition_score": latest_visit.condition_score if latest_visit else None,
                 "condition_band": latest_visit.condition_band if latest_visit else None,
                 "surveyed_on": str(latest_visit.surveyed_on) if latest_visit else None,
-                "surveyor": latest_visit.surveyor if latest_visit else None,
+                "surveyor": eq.surveyor or (latest_visit.surveyor if latest_visit else None),
                 "attribute_json": latest_visit.attribute_json if latest_visit else None,
             }
         })
