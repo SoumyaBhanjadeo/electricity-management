@@ -58,6 +58,10 @@ class EquipmentBase(BaseModel):
     longitude: float
     elevation_m: Optional[float] = None
     status: str
+    surveyor: Optional[str] = None
+    surveyed_on: Optional[date] = None
+    condition_score: Optional[int] = None
+    condition_band: Optional[str] = None
 
 class EquipmentCreate(EquipmentBase):
     surveyed_on: date
@@ -72,6 +76,9 @@ class EquipmentReplace(BaseModel):
     longitude: float
     elevation_m: Optional[float] = None
     status: str
+    surveyor: Optional[str] = None
+    surveyed_on: Optional[date] = None
+    condition_score: Optional[int] = None
 
 class EquipmentPatch(BaseModel):
     name: Optional[str] = None
@@ -80,6 +87,9 @@ class EquipmentPatch(BaseModel):
     longitude: Optional[float] = None
     elevation_m: Optional[float] = None
     status: Optional[str] = None
+    surveyor: Optional[str] = None
+    surveyed_on: Optional[date] = None
+    condition_score: Optional[int] = None
 
 class EquipmentResponse(EquipmentBase):
     model_config = ConfigDict(from_attributes=True)

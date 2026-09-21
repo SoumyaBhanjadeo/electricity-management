@@ -34,9 +34,19 @@ def get_equipment_paginated(
         if surveyor:
             query = query.filter(SurveyVisit.surveyor.ilike(f"%{surveyor.strip()}%"))
         if min_condition is not None:
-            query = query.filter(SurveyVisit.condition_score >= min_condition)
+            query = query.filter(
+                or_(
+                    SurveyVisit.condition_score >= min_condition,
+                    FieldEquipment.condition_score >= min_condition
+                )
+            )
         if max_condition is not None:
-            query = query.filter(SurveyVisit.condition_score <= max_condition)
+             query = query.filter(
+                or_(
+                    SurveyVisit.condition_score <= max_condition,
+                    FieldEquipment.condition_score <= max_condition
+                )
+            )
         query = query.distinct()
 
     total = query.count()
@@ -54,6 +64,8 @@ def create_equipment_with_visit(
     data: Dict[str, Any],
     user_id: Optional[int] = None
 ) -> FieldEquipment:
+    cond_score = data.get("condition_score")
+    cond_band = data.get("condition_band", get_condition_band(cond_score) if cond_score is not None else None)
     eq = FieldEquipment(
         asset_id=data["asset_id"],
         name=data["name"],
@@ -62,6 +74,10 @@ def create_equipment_with_visit(
         longitude=data["longitude"],
         elevation_m=data.get("elevation_m"),
         status=data["status"],
+        surveyor=data.get("surveyor"),
+        surveyed_on=data.get("surveyed_on"),
+        condition_score=cond_score,
+        condition_band=cond_band,
         created_by=user_id,
         updated_by=user_id,
     )
@@ -73,7 +89,7 @@ def create_equipment_with_visit(
         surveyed_on=data["surveyed_on"],
         surveyor=data["surveyor"],
         condition_score=data["condition_score"],
-        condition_band=data.get("condition_band", get_condition_band(data["condition_score"])),
+        condition_band=cond_band or "UNKNOWN",
         attribute_json=data.get("attribute_json"),
         created_by=user_id,
         updated_by=user_id,
@@ -96,6 +112,13 @@ def replace_equipment(
     eq.longitude = replace_data.longitude
     eq.elevation_m = replace_data.elevation_m
     eq.status = replace_data.status.lower()
+    if replace_data.surveyor is not None:
+        eq.surveyor = clean_text(replace_data.surveyor)
+    if replace_data.surveyed_on is not None:
+        eq.surveyed_on = replace_data.surveyed_on
+    if replace_data.condition_score is not None:
+        eq.condition_score = replace_data.condition_score
+        eq.condition_band = get_condition_band(replace_data.condition_score)
     eq.updated_by = user_id
     db.commit()
     db.refresh(eq)
@@ -120,6 +143,13 @@ def patch_equipment(
         eq.elevation_m = patch_data.elevation_m
     if patch_data.status is not None:
         eq.status = patch_data.status.lower()
+    if patch_data.surveyor is not None:
+        eq.surveyor = clean_text(patch_data.surveyor)
+    if patch_data.surveyed_on is not None:
+        eq.surveyed_on = patch_data.surveyed_on
+    if patch_data.condition_score is not None:
+        eq.condition_score = patch_data.condition_score
+        eq.condition_band = get_condition_band(patch_data.condition_score)
     eq.updated_by = user_id
     db.commit()
     db.refresh(eq)

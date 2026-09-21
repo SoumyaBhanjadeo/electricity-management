@@ -38,7 +38,11 @@ class FieldEquipment(Base):
     latitude = Column(Float, nullable=False)
     longitude = Column(Float, nullable=False)
     elevation_m = Column(Float, nullable=True)
+    surveyor = Column(String(100), index=True, nullable=True)
     status = Column(String(50), index=True, nullable=False)
+    surveyed_on = Column(Date, index=True, nullable=True)
+    condition_score = Column(Integer, index=True, nullable=True)
+    condition_band = Column(String(20), nullable=True)
 
     is_active = Column(Boolean, default=True, nullable=False)
     created_by = Column(IdType, ForeignKey("users.id"), nullable=True)
