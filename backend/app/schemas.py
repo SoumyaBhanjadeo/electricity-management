@@ -160,3 +160,8 @@ class BulkUploadResponse(BaseModel):
     rows_accepted: int
     rows_rejected: int
     rejects_file: Optional[str] = None
+
+class MessageResponse(BaseModel):
+    success: bool = True
+    message: str
+    asset_id: Optional[str] = None

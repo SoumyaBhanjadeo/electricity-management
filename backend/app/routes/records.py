@@ -9,6 +9,7 @@ from app.schemas import (
     EquipmentPatch,
     EquipmentResponse,
     PaginatedEquipmentResponse,
+    MessageResponse
 )
 from app.security import require_surveyor, require_admin
 from app.data_cleaner import validate_and_clean_record
@@ -104,16 +105,21 @@ def patch_record(
         )
     return crud.patch_equipment(db, eq, payload, user_id=current_user.id)
 
-@router.delete("/{asset_id}", status_code=status.HTTP_204_NO_CONTENT, dependencies=[Depends(require_admin)])
+@router.delete("/{asset_id}", response_model=MessageResponse, status_code=status.HTTP_200_OK, dependencies=[Depends(require_admin)])
 def delete_record(
     asset_id: str,
     db: Session = Depends(get_db)
 ):
-    eq = crud.get_equipment_by_id(db, asset_id.strip())
+    clean_id = asset_id.strip()
+    eq = crud.get_equipment_by_id(db, clean_id)
     if not eq:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
-            detail=f"Equipment with code '{asset_id}' does not exist."
+            detail=f"Equipment with code '{clean_id}' does not exist."
         )
     crud.delete_equipment(db, eq)
-    return None
+    return MessageResponse(
+        success=True,
+        message=f"Equipment with code '{clean_id}' and all associated inspection visits have been successfully deleted.",
+        asset_id=clean_id
+    )

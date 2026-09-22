@@ -6,6 +6,331 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          85.86,
+          20.31
+        ]
+      },
+      "properties": {
+        "asset_id": "JI-9102",
+        "name": "Jharpada Industrial Area Pole 16",
+        "asset_type": "pole",
+        "elevation_m": 45.0,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-16",
+        "surveyor": "Kartik Chandra Nayak",
+        "attribute_json": {
+          "height_m": 12.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.865,
+          20.315
+        ]
+      },
+      "properties": {
+        "asset_id": "QL-0129",
+        "name": "Unit 5 Quarters Transformer 16",
+        "asset_type": "transformer",
+        "elevation_m": 46.0,
+        "status": "active",
+        "condition_score": 10,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-16",
+        "surveyor": "Satyabrata Swain",
+        "attribute_json": {
+          "rating_kva": 1000,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.87,
+          20.32
+        ]
+      },
+      "properties": {
+        "asset_id": "MN-0345",
+        "name": "Patia Main Road Valve 16",
+        "asset_type": "valve",
+        "elevation_m": 44.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-16",
+        "surveyor": "Ananya Priyadarshini",
+        "attribute_json": {
+          "bore_mm": 150,
+          "type": "gate"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.875,
+          20.325
+        ]
+      },
+      "properties": {
+        "asset_id": "OP-0567",
+        "name": "Infocity Outer Ring Manhole 16",
+        "asset_type": "manhole",
+        "elevation_m": 43.5,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-16",
+        "surveyor": "Krushna Chandra Sethi",
+        "attribute_json": {
+          "depth_m": 2.8,
+          "cover_type": "cast_iron"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.88,
+          20.33
+        ]
+      },
+      "properties": {
+        "asset_id": "RT-0789",
+        "name": "Jaydev Vihar Roundabout Pole 17",
+        "asset_type": "pole",
+        "elevation_m": 46.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-17",
+        "surveyor": "Madhusudan Behera",
+        "attribute_json": {
+          "height_m": 11.5,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.885,
+          20.335
+        ]
+      },
+      "properties": {
+        "asset_id": "LL-0910",
+        "name": "Saheed Nagar Lane Transformer 17",
+        "asset_type": "transformer",
+        "elevation_m": 47.0,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-17",
+        "surveyor": "Chinmay Kumar Panda",
+        "attribute_json": {
+          "rating_kva": 750,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.89,
+          20.34
+        ]
+      },
+      "properties": {
+        "asset_id": "SL-1123",
+        "name": "Rasulgarh Side Street Valve 17",
+        "asset_type": "valve",
+        "elevation_m": 45.0,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-17",
+        "surveyor": "Sujata Mohapatra",
+        "attribute_json": {
+          "bore_mm": 125,
+          "type": "butterfly"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.895,
+          20.345
+        ]
+      },
+      "properties": {
+        "asset_id": "KJ-1345",
+        "name": "Master Canteen Junction Manhole 17",
+        "asset_type": "manhole",
+        "elevation_m": 44.5,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-17",
+        "surveyor": "Ganeswar Pradhan",
+        "attribute_json": {
+          "depth_m": 2.9,
+          "cover_type": "steel_plate"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.9,
+          20.35
+        ]
+      },
+      "properties": {
+        "asset_id": "GC-1567",
+        "name": "Patia Crossing Pole 18",
+        "asset_type": "pole",
+        "elevation_m": 47.5,
+        "status": "active",
+        "condition_score": 9,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-18",
+        "surveyor": "Bishnu Prasad Jena",
+        "attribute_json": {
+          "height_m": 12.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.905,
+          20.355
+        ]
+      },
+      "properties": {
+        "asset_id": "OM-1789",
+        "name": "Chandrasekharpur Outer Market Transformer 18",
+        "asset_type": "transformer",
+        "elevation_m": 48.0,
+        "status": "active",
+        "condition_score": 10,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-18",
+        "surveyor": "Bijay Kumar Kar",
+        "attribute_json": {
+          "rating_kva": 1000,
+          "cooling": "oil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.91,
+          20.36
+        ]
+      },
+      "properties": {
+        "asset_id": "QM-2012",
+        "name": "Khandagiri Quarters Valve 18",
+        "asset_type": "valve",
+        "elevation_m": 46.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-18",
+        "surveyor": "Saroj Kumar Lenka",
+        "attribute_json": {
+          "bore_mm": 150,
+          "type": "gate"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.915,
+          20.365
+        ]
+      },
+      "properties": {
+        "asset_id": "YP-2234",
+        "name": "Unit 9 Yard Manhole 18",
+        "asset_type": "manhole",
+        "elevation_m": 45.5,
+        "status": "active",
+        "condition_score": 7,
+        "condition_band": "FAIR",
+        "surveyed_on": "2026-09-18",
+        "surveyor": "Debashree Patnaik",
+        "attribute_json": {
+          "depth_m": 3.0,
+          "cover_type": "cast_iron"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.92,
+          20.37
+        ]
+      },
+      "properties": {
+        "asset_id": "IN-2456",
+        "name": "KIIT Square Intersection Pole 19",
+        "asset_type": "pole",
+        "elevation_m": 48.0,
+        "status": "active",
+        "condition_score": 8,
+        "condition_band": "GOOD",
+        "surveyed_on": "2026-09-19",
+        "surveyor": "Gouranga Charan Rout",
+        "attribute_json": {
+          "height_m": 11.0,
+          "material": "steel"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           85.8271,
           20.2945
         ]

@@ -1,20 +1,20 @@
 ======================================================================
 ELECTRICITY UTILITY - FIELD SURVEY SUMMARY REPORT
 ======================================================================
-Run Timestamp: 2026-09-21 13:01:53 UTC
+Run Timestamp: 2026-09-21 13:39:39 UTC
 Input File:    data/survey_export_odia_names.csv
 
 Asset Type      Surveyed   Avg Condition   Worst Asset     Worst Score 
 ----------------------------------------------------------------------
-Manhole         25         6.72            MH-0402         1           
-Pole            31         7.35            PL-0103         2           
-Transformer     30         7.57            TR-0203         2           
-Valve           25         6.68            VL-0302         3           
+Manhole         28         6.79            MH-0402         1           
+Pole            35         7.49            PL-0103         2           
+Transformer     33         7.76            TR-0203         2           
+Valve           28         6.79            VL-0302         3           
 ----------------------------------------------------------------------
-Total Assets in Database: 111
-Total Inspection Visits:  111
+Total Assets in Database: 124
+Total Inspection Visits:  124
 
 Geographic Extent (Bounding Box):
   Latitude Range:  20.229 to 20.378
-  Longitude Range: 85.751 to 85.867
+  Longitude Range: 85.751 to 85.92
 ======================================================================
