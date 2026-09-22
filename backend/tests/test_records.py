@@ -65,7 +65,9 @@ def test_delete_record_cascade(client, admin_token, surveyor_token, db_session):
     create_sample_equipment(client, surveyor_token, "TR-9905")
     headers = {"Authorization": f"Bearer {admin_token}"}
     del_res = client.delete("/api/v1/records/TR-9905", headers=headers)
-    assert del_res.status_code == 204
+    assert del_res.status_code == 200
+    assert del_res.json()["success"] is True
+    assert "TR-9905" in del_res.json()["message"]
 
     get_res = client.get("/api/v1/records/TR-9905", headers=headers)
     assert get_res.status_code == 404

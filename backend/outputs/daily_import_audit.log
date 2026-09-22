@@ -6,3 +6,5 @@
 [2026-09-19 12:35:32 UTC] File: data/survey_export_odia_names.csv | Rows Read: 60 | Accepted: 60 | Rejected: 0 | Strict: False
 [2026-09-21 12:28:36 UTC] File: data/survey_export_odia_names.csv | Rows Read: 60 | Accepted: 0 | Rejected: 60 | Strict: False
 [2026-09-21 13:01:53 UTC] File: data/survey_export_odia_names.csv | Rows Read: 60 | Accepted: 0 | Rejected: 60 | Strict: False
+[2026-09-21 13:34:10 UTC] File: data/survey_export_odia_names.csv | Rows Read: 73 | Accepted: 13 | Rejected: 60 | Strict: False
+[2026-09-21 13:39:39 UTC] File: data/survey_export_odia_names.csv | Rows Read: 73 | Accepted: 0 | Rejected: 73 | Strict: False
